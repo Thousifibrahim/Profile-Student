@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+        <!---->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://ahil-xdesigns.webflow.io/">Services</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <!----> 
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="https://ahil-xdesigns.webflow.io/" onclick="toggleMenu()">Services</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="smd.png" alt="Rohan profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello , I'm</p>
+        <h1 class="title">Thousif ibrahim</h1>
+        <p class="section__text__p11">  Web developer | Data Analyst | UI/UX & Graphic designer . <br><br> I specialize in Business Intelligence , ETL and Data modeling. Explore my portfolio to see my work and learn more about my projects and skills. </p>
+        <br>
+          <!----> 
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('SMD Thousif.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linked.in.jpg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/thousif-ibrahim-29050421b'"
+          />
+          <img
+            src="git.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/THousifibrahim'"
+          />
+        </div>
+      </div>
+    </section>
+    <br><br>
+    <section id="about">
+      <p class="section__text__p1">Know More</p>
+      <h1 class="title">About Me : </h1>
+      <br>
+      <p class="section__text__p1">Passionate IT professional with expertise in ETL
+        Data modeling, Data analytics and business Intelligence. Proficient
+        in a range of industry-leading software tools. </p> <br>
+      <div class="section-container">
+        <!----> 
+        <div class="about-details-container">
+          <div class="about-containers">
+            <!----> 
+            <div class="details-container">
+              <img
+                src="education.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of computer application .</p>
+              <p>with Specialization in Data science </p>
+
+            </div>
+            <div class="details-container">
+                <img
+                  src="course.jpg"
+                  alt="Courses icon"
+                  class="icon"
+                />
+                <h3>Courses</h3>
+                <p>Data science and Machine learning</p>
+                <p>Business Intelligence and Analytical Tools</p>
+                
+            </div>
+            <div class="details-container">
+              <img
+                src="skills.jpg"
+                alt="Skills icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p> HTML5, CSS, Python ,Php , Springboard , SQL, Github , MangodB(CRUD), Power Bi , Tabluea and R PL OOP's </p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <!----> 
+    <section id="projects">
+      <p class="section__text__p1">Explore My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="sales analytics.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Travel Planner</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/THousifibrahim/Travelplanner'"
+              >
+                Github Repo
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="HR image.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">College fest MS</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://thousifibrahim.github.io/inspire/'"
+              >
+                Github Repo
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="financial-analysis.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Insurance prediction Model</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/THousifibrahim/carinsurance'"
+              >
+                Github Repo
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="Mail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:thousifibrahim07@gmail.com">thousifibrahim07@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linked.in.jpg"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/thousif-ibrahim-29050421b">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+              src="git.png"
+              alt="Github icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://github.com/THousifibrahim">Github</a></p>
+          </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <!----> 
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="https://ahil-xdesigns.webflow.io/">Services</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!----> 
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
