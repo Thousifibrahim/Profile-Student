@@ -25,7 +25,7 @@ A simple, static personal profile site (HTML/CSS, optional JavaScript). Minimal 
 
 ### Deployment
 - Hosted on GitHub Pages.
-  https://thousifibrahim.github.io/profile/
+  https://thousifibrahim.github.io/Profile24/ 
 #
 ## 🤝 Let's Connect
 
