@@ -1,36 +1,25 @@
+# Profile24
 
-## Profile 
+My first portfolio website showcasing front-end development skills. Built from  scratch using core web technologies with responsive  design implementation via CSS media queries for optimal cross-device compatibility.
 
-A simple, static personal profile site (HTML/CSS, optional JavaScript). Minimal and easy to run or edit.
+## Overview
 
-#
-### Quick start
-- Open `index.html` in your browser, or run a quick local server:
-  python -m http.server 8000
+This repository contains the source code and supporting files for **Profile24**.
 
-  Then visit http://localhost:8000
-#
+## Getting started
 
-### Edit & develop
-- Edit the HTML/CSS files directly.
-- No build step required unless you add a frontend toolchain.
-#
+```bash
+git clone https://github.com/Thousifibrahim/Profile24.git
+cd Profile24
+```
 
-### Project structure (typical)
-- `index.html` — main page
-- `css/` — styles
-- `js/` — optional scripts
-- `assets/` — images, fonts, etc.
-#
+Check the repository files for the project-specific entry point and setup requirements. Do not commit credentials, API keys, or private configuration files.
 
-### Deployment
-- Hosted on GitHub Pages.
-  https://thousifibrahim.github.io/Profile24/ 
-#
-## 🤝 Let's Connect
+## Project links
 
-[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">](https://github.com/Thousifibrahim)
-[<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">](mailto:contact.thousif+github@gmail.com)
-[<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">](https://www.linkedin.com/in/smd-thousif-ibrahim-29050421b)
+- [Source code](https://github.com/Thousifibrahim/Profile24)
+- [Issues and discussions](https://github.com/Thousifibrahim/Profile24/issues)
 
+## License
 
+See the repository's `LICENSE` file, when present.
