@@ -1,5 +1,7 @@
 # Profile24
 
+![stack: HTML](https://img.shields.io/badge/stack-HTML-E34F26) ![stack: CSS](https://img.shields.io/badge/stack-CSS-1572B6) ![stack: JavaScript](https://img.shields.io/badge/stack-JavaScript-F7DF1E) ![platform: Web](https://img.shields.io/badge/platform-Web-6f42c1)
+
 My first portfolio website showcasing front-end development skills. Built from  scratch using core web technologies with responsive  design implementation via CSS media queries for optimal cross-device compatibility.
 
 ## Overview
